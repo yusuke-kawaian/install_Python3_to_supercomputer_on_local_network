@@ -26,7 +26,7 @@ CentOS release 6.3 (Final)
 `make install`でインストールは正常に完了した. 特に指定した覚えはないが, `python3`, `pip3`コマンドがそれぞれ自動で使用可能になった.  
 
 
-# Install libraries
+# Install Libraries
 今回はtensorflowを用いて書いたコードを実行することがゴールなので, numpy, pandas, tensorflow等をインストールした.  
 ローカルネットワークなのでもちろんpip3 installは使えない. そこで, webページ[[2]](https://tech-diary.net/python-library-offline-install/)を参考に.whlファイルもしくはtar.xzファイルを https://pypi.org/ からDLしてインストールした.  
 
@@ -86,7 +86,7 @@ related libraries for keras
   wrapt
 ```
 
-# Carrying out tensorflow  
+# Carrying Out Tensorflow  
 環境構築が出来たところでNNの訓練プログラムを再び走らせると, 以下のエラーが出現した.  
 ```
 module 'tensorflow' has no attribute 'placeholder'
@@ -108,7 +108,7 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 ```
 
-# reference
+# Reference
 [1] https://qiita.com/hasegit/items/6228da974c5837a1c393  
 [2] https://tech-diary.net/python-library-offline-install/  
 [3] https://qiita.com/r-ngtm/items/f7dc53bf713d12f6be9d  
