@@ -17,7 +17,7 @@ CentOS release 6.3 (Final)
 # make test
 # make install
 ```
-`make test` で7つのエラーが出たが解決法が分からなかったので今回は無視した. (インストール, tesnorflowの展開共に成功したため, とりあえず保留. 詳細はmake_test_log.txt参照)  
+`make test` で7つのエラーが出たが解決法が分からなかったので今回は無視した. (インストール, tesnorflowの展開共に成功したため, とりあえず保留. ~~詳細はmake_test_log.txt参照~~)  
 ```
 7 tests failed:
     test_dtrace test_gdb test_normalization test_pdb test_robotparser
