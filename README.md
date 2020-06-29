@@ -52,11 +52,14 @@ CentOS release 6.3 (Final)
 インストール後, 早速NNの訓練プログラムを投入するもimport pandas/tensorflowでエラー. **上記の方法によるローカルでのインストールはpip3とは違い関連ライブラリのインストールをしてくれないのである.**  
 調べてもなかなか出てこないので, 以下にpandasとtensorflowの関連ライブラリを記載する.  
 ```
-related libraries for pandas
+required libraries for introduction of pandas
+  pandas1.0.4
   python_dateutil-2.8.1
   pytz-2020.1
-  
-related libraries for tensorflow
+```
+```
+required libraries for introduction of tensorflow
+  tensorflow2.2.0
   absl-py-0.9.0
   astunparse-1.6.3
   gast-0.3.3
@@ -70,7 +73,7 @@ related libraries for tensorflow
 ```
 ちなみに調べたら出てきたkerasの関連ライブラリは以下の通り.  
 ```
-related libraries for keras
+required libraries for introduction of keras
   absl
   astor
   BeautifulSoup4
@@ -84,6 +87,15 @@ related libraries for keras
   tensorflow
   termcolor
   wrapt
+```
+
+matplotlibを導入した際は以下の関連ライブラリを要求された. (追記 2020/06/29)
+```
+required libraries for introduction of matplotlib
+  matplotlib-3.2.2
+  pyparsing-2.4.7
+  kiwisolver-1.2.0
+  cycler-0.10.0.
 ```
 
 # Carrying Out Tensorflow  
