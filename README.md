@@ -50,7 +50,7 @@ CentOS release 6.3 (Final)
 ```
 
 インストール後, 早速NNの訓練プログラムを投入するもimport pandas/tensorflowでエラー. **上記の方法によるローカルでのインストールはpip3とは違い関連ライブラリのインストールをしてくれないのである.**  
-調べてもなかなか出てこないので, 以下にpandasとtensorflowの関連ライブラリを記載する.  
+調べてもなかなか出てこなかったので, 以下に地道に調べて分かったpandasとtensorflowの関連ライブラリを記載する.  
 ```
 required libraries for introduction of pandas
   pandas1.0.4
